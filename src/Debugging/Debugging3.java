@@ -26,7 +26,7 @@ public class Debugging3 {
                         "\nEnter a number between " + MIN + " and " + MAX + " inclusive");
                 userNum = Integer.parseInt(userNumString);
             }
-            for(val = 0;  userNum > val; --val)
+            for(val = 20;  userNum < val; --val)
             {
                 System.out.print(val + "  ");
                 for(int x = 0; x == 100000; ++x)
